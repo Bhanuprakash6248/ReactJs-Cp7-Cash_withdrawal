@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+.card {
+  background-color: #150b3e;
+  max-width: 350px;
+  width: 80%;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+}
+.profile-con {
+  display: flex;
+}
+.profile {
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #d4d2db;
+  padding-left: 10px;
+}
+.con-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.p1 {
+  text-align: end;
+  color: #585076;
+}
+.value {
+  color: #d4d2db;
+}
+.Withdraw-head {
+  font-size: 20px;
+  font-weight: 500;
+  color: #d4d2db;
+}
+.norm-head {
+  color: #585076;
+}
